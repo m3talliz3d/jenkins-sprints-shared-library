@@ -2,5 +2,5 @@
 
 def call() {
      echo " push my-appv2 to dockerhub repo " 
-     sh 'docker push  yahia90/devops:my-appv2'
+     sh "docker push  yahia90/devops:my-appv2"
 }
