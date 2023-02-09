@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
 def call() {
-     echo " push my-appv2 to dockerhub repo " 
-     sh "docker push  yahia90/devops:my-appv2"
+     echo " push image to dockerhub repo " 
+     sh "docker push  yahia90/devops:{env.BUILD_NUMBER}"
 }
